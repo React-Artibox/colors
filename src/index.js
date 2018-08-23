@@ -21,7 +21,7 @@ export class Color {
   }
 
   static runtime = {
-    activedColor: null,
+    actived: null,
   }
 
   static setTheme(themeName) {
