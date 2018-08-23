@@ -1,0 +1,42 @@
+{
+  "name": "@artibox/colors",
+  "version": "0.1.0",
+  "description": "Artibox Colors",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublishOnly": "babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/React-Artibox/colors.git"
+  },
+  "keywords": [
+    "artibox",
+    "react"
+  ],
+  "author": "Chia Yu Pai (Rytass)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/React-Artibox/colors/issues"
+  },
+  "homepage": "https://github.com/React-Artibox/colors#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-rc.2",
+    "@babel/core": "^7.0.0-rc.2",
+    "@babel/node": "^7.0.0-rc.2",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-rc.2",
+    "@babel/plugin-transform-flow-strip-types": "^7.0.0-rc.2",
+    "@babel/plugin-transform-runtime": "^7.0.0-rc.2",
+    "@babel/preset-env": "^7.0.0-rc.2",
+    "@babel/runtime": "^7.0.0-rc.2",
+    "babel-eslint": "^8.2.6",
+    "babel-loader": "^7.1.5",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "flow-bin": "^0.79.1"
+  }
+}

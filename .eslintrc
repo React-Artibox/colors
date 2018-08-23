@@ -1,0 +1,38 @@
+{
+  "root": true,
+
+  "extends": [
+    "airbnb/base",
+    "plugin:flowtype/recommended",
+  ],
+
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+
+  "parser": "babel-eslint",
+
+  "plugins": [
+    "import",
+    "flowtype"
+  ],
+
+  "env": {
+    "browser": true,
+    "node": true
+  },
+
+  "rules": {
+    "no-constant-condition": ["error", { "checkLoops": false }],
+    "no-bitwise": [0],
+    "no-console": ["error", { allow: ["warn", "error"] }],
+  },
+
+  "settings": {
+
+  }
+}
